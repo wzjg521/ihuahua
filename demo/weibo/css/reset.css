@@ -1,0 +1,22 @@
+body,h1,h2,h3,p,dl,dd,ul,ol,form,input{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+input{
+	outline: none;
+}
+body{
+	background: #f1f1f1;
+	font:12px/1.125em Arial,Helvetica,sans-serif;
+}
+

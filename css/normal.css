@@ -1,0 +1,72 @@
+#logo{
+	width:100%;
+	text-align: center;
+	left:0;
+}
+#nav{
+	display: none;
+}
+.box .flot_box{
+	width:80%;
+	text-align: center;
+	position: static;
+	margin: 0 auto;
+}
+#work,#job{
+	padding-top: 20%;
+}
+.box .title{
+	width: 80%;
+	height: 2em;
+	line-height: 2em;
+}
+.box-4 .title{
+	width:65%;
+}
+
+.box .title h3{
+	font-size: 1.1em;
+}
+
+.box .items .item_list{
+	width:40%;
+}
+
+.contract{
+	width:75%;
+}
+
+.contract_out{
+	width: 100%;
+	position: static!important;
+	margin-top: 6%;
+}
+.contract .user_name,.contract .email_content{
+	clear: both;
+	width:100%;
+}
+.contract p{
+	font-size: 1em;
+}
+.contract .top_input input[type="text"]{
+	display: inline-block;
+	width: 97%;
+	height: 2.5em;
+	font-size: 1.1em;
+}
+.contract textarea{
+	width: 92%;
+	font-size: 1.6em;
+}
+.contract input[type="button"]{
+	width: 40%;
+	height: 80%;
+	font-size: 1.1em;
+}
+.box .iphone,.box .apple{
+	display: none;
+}
+
+hr{
+	width:40%;
+}

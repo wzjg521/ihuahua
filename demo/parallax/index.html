@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- 为了支持IE的兼容模式,加上如下的代码-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 为了确保不同分辨率下的设备可以正常浏览，加上如下代码 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>huahua视差网站</title>
+        <meta name="description" content="视差网站、滚动视差">
+        <meta name="keywords" content="视差">
+        <!--确保html5标签在ie浏览器运行良好//respond.min.js是为了兼容IE8的媒体查询-->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="images/ihuahua.ico"> 
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+    <!-- Header -->
+        <header id="header">
+            <!-- Logo -->
+                <h1 id="logo"><img src="images/logo_small.png" alt=""></h1><!-- Nav -->
+                <nav id="nav">
+                    <ul>
+                        <li class="focus"><a href="javascript:;">Home</a></li>
+                        <li><a href="javascript:;">Who We Are</a></li>
+                        <li><a href="javascript:;">What We Do</a></li>
+                        <li><a href="javascript:;">Contract</a></li>
+                        <li><a href="javascript:;">End</a></li>
+                    </ul>
+                </nav>
+        </header>
+    <!-- 左右滑动内容 -->
+        <div id="right_slide" class="more">
+            <div class="handle">
+                <span class="close_right">×</span>
+                <span class="left_down" >◇</span>
+            </div>
+            <div class="content1">
+                <img src="images/logo_white.png" alt="">
+                <div class="head_photo">
+                    <div class="huahua hj">
+                        <img src="images/huahua.png" alt="">
+                        <h3>huahua</h3>
+                        <p>一阵风，一颗种子，</p>
+                        <p>一片蒲公英的辉煌</p>
+                        <p>只是为了实现那个梦,洒落远方</p>
+                        <p>Email:2844614797@qq.com</p>
+                    </div> 
+                    <div class="junjun hj">
+                        <img src="images/junjun.png" alt="">
+                        <h3>my way</h3>
+                        <p>喜欢研究技术，</p>
+                        <p>哎，没办法,就爱捣鼓这些</p>
+                        <p>还乐此不彼。</p>
+                        <p>Email:phpandjs@sina.com</p>
+                    </div>                                       
+                </div>
+            </div>
+        </div>
+        <div id="left_slide" class="more">
+            <div class="handle">
+                <span class="close_left">×</span>
+                <span class="right_down">＋</span>
+            </div>
+            <div class="content1">
+                <img src="images/logo_white.png" alt="">
+                <div class="text_area">
+                    <h2>Technology has been updated, so we should strive to improve themselves</h2>
+                    <p><small>我们一直都在追梦的道路上，永不停歇！</small></p>
+                </div>   
+            </div>
+        </div>
+
+    <!-- 主题内容 -->
+        <div id="main" role="main">
+        <!-- first-->
+            <section id="first" class="story" data-speed="8" data-type="background">
+                <div class="firstlogo" data-type="sprite" data-offsetY="200" data-Xposition="10%" data-speed="2"></div>
+                <article>
+                    <div class="first">
+                        <img src="images/logo2.png" alt="tutorial-title" />
+                        <p>与你分享技术Blog: <a href="http://blog.ihuahua.cc" target="_bank">ihuahua.cc</a><br>
+                            蒲公英会选择飞翔,是为了实现那个梦<br>一阵风，一颗种子，一片蒲公英的辉煌<br>一颗种子，一阵微风，一片蒲公英的灿烂<br>
+                            <small class="small_font">--摘自--花语 Ω</small><br>
+                        </p>
+                        <div class="contract">
+                            <a class="left_down" href="javascript:;">◇</a>
+                            <a class="scroll_down" href="javascript:;">∨</a>                           
+                            <a class="right_down" href="javascript:;">＋</a>
+                        </div>
+                    </div>               
+                </article>
+            </section>
+        <!-- second-->
+            <section id="second" class="story" data-speed="4" data-type="background">
+                <div class="second2" data-type="sprite" data-offsetY="700" data-Xposition="70%" data-speed="2"></div>
+                <article>
+                    <h2>--Who We Are--</h2>
+                    <div class="text2">
+                        <p>你可以叫我huahua.I'm a girl who want the world will be better than ever.</p>
+                        <p>我是一个人,我们是一对组合,我致力于让丰富的内容以精彩的视觉效果呈现在每一个Surfers面前.Technology is boring, but it is also brilliant.Everything depends on you.</p>
+                        <p>你可以叫我的搭档myway,他研究技术just for funy.他要做的是集前端,开发,运维于一身. Not only this he just want to know more and better. he is a Geeks he like computer so he want to learn everything .It's silly, but it's cool.what do you think about?</p>
+                    </div>
+                </article>                 
+            </section>
+
+        <!-- third -->
+            <section id="third" class="story" data-speed="6" data-type="background" data-offsetY="250">
+                <div class="photograph" data-type="sprite" data-offsetY="1200" data-Xposition="40%" data-speed="2"></div>
+                <article>
+                    <h2>--What We Do--</h2>
+                    <div class="textbox">
+                        <p>这是一个严肃的话题,我们能干什么,我们可以独立设计开发运维一个web site.当然这不是二次开发.目前我们所能采用的架构：</p>
+                        <p>前台：xhtml/html5/基于bootstrp响应式布局/javascript/jquery;</p>
+                        <p>后台语言：php/Django for python</p>
+                        <p>服务器软件：apache/nginx</p>
+                        <p>数据库软件：not Oralce ,not SQL server ,just MySQl Mariadb Percona</p>
+                       <p>OS：我们只做linux </p>                      
+                    </div>
+                </article>
+            </section>
+
+        <!-- fourth -->
+            <section id="fourth" class="story" data-speed="8" data-type="background" data-offsetY="280">
+                <div class="fourth2" data-type="sprite" data-offsetY="1500" data-Xposition="40%" data-speed="2"></div>
+                <article>
+                    <h2>---Contract---</h2>
+                    <div class="textbox">
+                        <p>Email1：phpandjs@sina.com</p>
+                        <p>Email2：2844614797@qq.com</p>
+                        <p>如果有什么问题，欢迎广大朋友们给我发Email</p>
+
+                    </div>
+                </article>
+            </section>
+
+        <!-- End-->
+            <section id="theend" class="story" data-speed="8" data-type="background" data-offsetY="350">
+                <div class="byebye" data-type="sprite" data-offsetY="-1200" data-Xposition="50%" data-speed="-3"></div>
+                <article>
+                    <img src="images/logo2.png" alt="">
+                    <p>再美好的事情终将会结束，留下的只有回忆。</p>
+                </article>
+                <footer>
+                    <small>&copy; Copyright by huahua 2014</small>
+                </footer>
+            </section>
+        </div> 
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

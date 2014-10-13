@@ -1,0 +1,170 @@
+body{
+	background: #fff;
+}
+#mac_buy{
+	width: 100%;
+	height: 290px;
+	padding-top: 25px;
+	text-align: center;
+	margin: 0 auto;
+}
+#mac_buy a{
+	color: #333;
+}
+#mac_buy ul{
+	width: 1014px;
+	height: 250px;
+	margin: 0 auto;
+}
+#mac_buy ul li{
+	width: 245px;
+	height: 208px;
+	padding-bottom: 25px;
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+#mac_buy h2{
+	font-weight: normal;
+	font-size: 46px;
+	font-family: '仿宋';
+	color: #333;
+}
+#mac_buy h3{
+	width: 245px;
+	height: 50px;
+	padding-top:80px;
+	font-size: 20px;
+	font-weight: normal;
+	color: #666;	
+}
+#mac_buy h3.mac_online{
+	background: url(../img/mac_36.jpg) no-repeat 100px top;
+}
+#mac_buy h3.mac_store{
+	background: url(../img/mac_39.jpg) no-repeat 100px top;
+}
+#mac_buy h3.mac_phone{
+	background: url(../img/mac_42.jpg) no-repeat 100px top;
+}
+#mac_buy span{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	color: #08c;
+}
+#mac_buy span.phone{
+	color: #666;
+}
+#mac_buy p{
+	padding:0 28px;
+	color: #666;
+}
+#mac_buy .mac_link{
+	width: 980px;
+	height: 30px;
+	margin: 0 auto;
+}
+#mac_buy .mac_link p{
+	width: 924px;
+	line-height: 30px;
+	text-align: left;
+}
+
+#ipod_touch{
+	width: 100%;
+	height: auto;
+	padding: 20px 0 0 0;
+	margin: 0 auto;
+	text-align: center;
+}
+#ipod_touch h1{
+	font-size: 60px;
+	color: #333;
+	padding-top: 50px;
+	line-height: 50px;
+	font-weight: normal;
+	font-family: "Georgia";
+}
+#ipod_touch h2{
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 50px;
+}
+#ipod_touch p{
+	color: #666;
+	font-size: 26px;
+	font-family: "Courier New";
+	padding-bottom: 20px;
+}
+
+#ipod_pic{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+#ipod_pic ul li{
+	display: inline-block;
+	max-width: 480px;
+	height: 256px;
+	margin-right: -2px;
+}
+
+#itunes{
+	width: 980px;
+	height: 306px;
+	border-bottom: 1px solid #e2e2e2;
+	margin: 0 auto;
+	padding: 70px 0 50px 0;
+	background: url(../img/itunes_hero.jpg) no-repeat right 70px;
+}
+#itunes h2{
+	font-size: 40px;
+	font-weight: normal;
+}
+#itunes h3{
+	font-size: 18px;
+	font-weight: normal;
+	color: #666;
+}
+#itunes p{
+	width: 32%;
+	line-height: 30px;
+	font-size: 16px;
+	color: #666;
+	padding-top: 20px;
+	letter-spacing: 1px;
+}
+#itunes span{
+	display: block;
+	font-size: 16px;
+	color: #08c;
+	padding: 5px 0;
+}
+#itunes input{
+	width: 110px;
+	height: 43px;
+	display: block;
+	margin: 20px 0 10px 0;
+	background: url(../img/apple_28.png) no-repeat left center;
+	border: none;
+	color: #fff;
+	cursor:pointer;
+	font-size: 14px;
+}
+#itunes input:hover{
+	background: url(../img/apple_28.png) no-repeat right center;
+}
+#itunes a{
+	display: block;
+	font-size: 14px;
+	color: #08c;
+}
+

@@ -1,0 +1,217 @@
+body,h1,h2,h3,p,dl,dd,ul,form,input{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+input{
+	outline: none;
+}
+body{
+	font-size: 12px;
+	font-family: Arial,Tahoma,"微软雅黑";
+	background: #f1f1f1;
+}
+
+header{
+	width: 100%;
+	height: 120px;
+	background: #005e98;
+}
+#top{
+	width: 1002px;
+	height: 120px;
+	margin: 0 auto;
+}
+#top .logo{
+	width: 60%;
+	float: left;
+	padding: 24px 0 0 14px;
+}
+#top .logo img{
+	float: left;
+}
+#top .logo h2{
+	float: left;
+	font-size: 20px;
+	color: #fff;
+	padding-top: 35px;
+	font-weight: normal;
+}
+#top .search{
+	width: 35%;
+	float: right;
+	text-align: right;
+}
+#top .search form{
+	margin: 50px 26px 0 0;
+}
+#top .search .text{
+	background: url(../images/search.png) no-repeat;
+	border: none;
+	width: 218px;
+	height: 24px;
+	margin-right: 4px;
+	padding-left: 10px;
+	color: #454545;
+}
+#top .search .btn{
+	background: url(../images/search.png) no-repeat -234px 0;
+	border: none;
+	width: 68px;
+	height: 24px;
+	color: #454545;
+	letter-spacing: 2px;
+}
+
+nav{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #fff;
+	background: url(../images/qiye.png) repeat-x 0 -37px;
+}
+#nav_bar{
+	width: 1002px;
+	height: 50px;
+	margin: 0 auto;
+}
+#nav_bar ul li{
+	float: left;
+	width: 125px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: url(../images/qiye.png) no-repeat 123px 14px;
+	position: relative;
+}
+#nav_bar .down_menu{
+	width: 125px;
+	overflow: hidden;
+	height: auto;
+	position: absolute;
+	top: 51px;
+	left: 0;
+	z-index: 9999;
+	display: none;
+	padding: 8px 0;
+	background: #cecece;
+}
+
+#nav_bar .down_menu li{
+	width: 125px;
+	line-height: 35px;
+	height: 35px;
+}
+#nav_bar .down_menu li a{
+	line-height: 35px;
+	height: 35px;
+}
+#nav_bar a{
+	color: #393838;
+	font-size: 14px;
+	width: 123px;
+	height: 50px;
+	display: inline-block;
+}
+#nav_bar ul li.no_border{
+	background: none;
+}
+
+#banner{
+    width: 1002px;
+    height: 325px;
+    margin: 0 auto;	
+    box-shadow: 0 3px 8px 3px #aaa;
+}
+div .wrapper {
+	width: 1002px;
+    height: 325px;
+    position: relative;
+}
+
+
+#main{
+	width: 1002px; 
+	margin:10px auto;
+}
+#main aside{
+	width: 220px;
+	height: auto;
+	float: left;
+}
+#main section{
+	width: 768px;
+	height: auto;
+	float: right;
+}
+#main .title_bg{
+	width: 100%;
+	height: auto;
+}
+
+#main .title_bg h3{
+	width: 100%;
+	height: 36px;
+	background: url(../images/qiye.png) repeat-x 0 -98px;
+	border: 1px solid #dadada;
+	line-height: 36px;
+	color: #303030;
+	font-size: 14px;
+	font-weight: normal;
+}
+#main .title_bg h3 span{
+	width: 5px;
+	height: 11px;
+	margin: 0 10px 0 10px;
+	display: inline-block;
+	background: url(../images/qiye.png) repeat-x 0 -87px;
+}
+
+footer{
+	width: 100%;
+	height: 125px;
+	background: #005e98;
+}
+footer .footer{
+	width: 1002px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	color: #bfe9f7;
+}
+footer a{
+	color: #fff;
+	width: 78px;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding-top: 30px;
+}
+footer p{
+	color: #fff;
+	line-height: 25px;
+	padding-top: 10px;
+}
+
+.clear{
+	zoom:1;
+}
+.clear:after{
+	content: '';
+	display: block;
+	clear:both;
+}
+.box_skitter .info_slide{
+    left: auto!important;
+    right: 15px!important;
+    bottom:0!important;
+    top:auto!important;
+}

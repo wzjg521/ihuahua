@@ -1,0 +1,179 @@
+body,h1,h2,h3,p,dl,dd,ul,form,input{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+input{
+	outline: none;
+}
+body{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	background: #f1f1f1;
+}
+
+#header{
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 18px;
+	height: 36px;
+	background: url(../img/header_bg.png) repeat-x 0 -36px;
+	border-radius: 2px;
+	overflow: hidden;
+	z-index: 2;
+	position: relative;
+}
+#header li{
+	float: left;
+	line-height: 36px;
+	width: 104px;
+	text-align: center;
+	background: url(../img/header_bg.png) no-repeat right -72px;
+}
+#header li.search{
+	background: none;
+	width: auto;
+	position: relative;
+}
+#header .text{
+ 	width:106px;
+ 	height:20px;
+ 	margin-left: 16px;
+ 	border: none;
+ 	background: url(../img/search.png) no-repeat;
+ 	text-indent: 20px;
+ 	font-size: 12px;
+ } 
+#header .btn{
+	width: 14px;
+	height: 24px;
+	background: url(../img/header.png) no-repeat -1px -48px;
+	border: none;
+	position: absolute;
+	top: 11px;
+	left: 22px;
+	cursor: pointer;
+}
+#header a{
+	color: #fff;
+	font-size: 14px;
+	width: 98%;
+	height: 36px;
+	display: block;
+}
+#header a.active{
+	background:  url(../img/header_bg.png) repeat-x;
+}
+#header a.active:hover{
+	background:  url(../img/header_bg.png) repeat-x;
+}
+#header a:hover{
+	background: url(../img/header_bg.png) repeat-x 0 -108px;
+}
+
+
+#apple_store{
+	width: 980px;
+	margin: 0 auto;
+	height: 202px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	margin-top: 6px;
+	font-size: 10px;
+}
+#apple_store .store_nav{
+	width:918px;
+	height: 34px;
+	line-height: 34px;
+	border-bottom: 1px solid #ddd;
+	background: url(../img/xiao.png) no-repeat 15px -61px;
+	color: #666;
+	font-size: 12px;
+	padding-left: 62px;
+}
+#apple_store ul{
+	width: 130px;
+	height: 154px;
+	padding: 10px 0 0 50px;
+	float: left;
+}
+#apple_store ul li{
+	line-height: 18px;
+}
+#apple_store a{
+	color: #888;
+}
+#apple_store a:hover{
+	color: #575656;
+}
+#apple_store .store_title{
+	color: #666;
+	font-weight: bold;
+	padding-bottom: 2px;
+}
+
+
+#footer{
+	width: 980px;
+	height: 164px;
+	margin: 0 auto;
+}
+#footer .footer_head{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;
+	color: #ccc;
+}
+#footer a{
+	padding: 0 10px;
+	color: #0088d2;
+	font-size: 10px;
+}
+#footer a:hover{
+	text-decoration: underline;
+}
+#footer a.a_left{
+	padding-left: 0;
+}
+#footer span{
+	float: right;
+}
+#footer .country{
+	background: url(../img/xiao.png) no-repeat 80px -158px;
+	padding-right: 24px;
+}
+#footer .copy{
+	color: #ccc;
+	height: 40px;
+	line-height: 40px;
+}
+#footer .copy .copy_a{
+	color: #999;
+}
+#footer .copy_a:hover{
+	text-decoration: none;
+}
+#footer .order_phone{
+	color: #999;
+}
+#footer p{
+	padding-top: 10px;
+	color: #999;
+	line-height: 18px;
+	font-size: 10px;
+}
+#footer p a{
+	color: #999;
+	padding-left: 0;
+	text-decoration: underline;
+}

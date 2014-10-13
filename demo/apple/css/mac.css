@@ -1,0 +1,208 @@
+body{
+	background: #fff;
+}
+#mac_show{
+	width: 100%;
+	height: 650px;
+}
+#mac_show h1{
+	width: 980px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 58px;
+	font-size: 32px;
+	letter-spacing: 1px;
+	font-weight: normal;
+	color: #333;
+}
+#mac_show h2{
+	width: 980px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 26px;
+	font-weight: normal;
+	color: #666;
+}
+#mac_show p{
+	width: 980px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin: 0 auto;
+	cursor:pointer;
+	font-size: 18px;
+}
+#mac_show p a{
+	color: #08c;
+}
+#mac_random{
+	width: 544px;
+	height: 356px;
+	margin: 40px auto;
+	background: url(../img/mac_random.jpg) no-repeat;
+	cursor: pointer;
+}
+
+#mac_pic{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+#mac_pic ul li{
+	display: inline-block;
+	max-width: 480px;
+	height: 256px;
+	margin-right: -2px;
+}
+
+#mac_dream{
+	width: 100%;
+	height: auto;
+}
+#mac_dream h1{
+	width: 980px;
+	line-height: 50px;
+	color: #333;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 26px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	padding-top: 50px;
+}
+#mac_dream h2{
+	width: 980px;
+	line-height: 30px;
+	color: #666;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 26px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	padding-bottom: 30px;
+}
+#mac_dream .dream_pic{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+#mac_dream p{
+	width: 704px;
+	padding:20px 138px 10px 138px;
+	margin: 0 auto;
+	text-align: center;
+	color: #404040;
+	font-size: 14px;
+	line-height: 25px;
+	letter-spacing: 1px;
+}
+#mac_dream span{
+	display: block;
+	text-align: center;
+	padding-bottom: 20px;	
+}
+#mac_dream span a{
+	color: #08c;
+	font-size: 14px;
+}
+#mac_dream .mac_new{
+	width: 980px;
+	height: 30px;
+	padding:13px 0 19px 0;
+	margin: 0 auto;
+	border-top:1px solid #e2e2e2;
+	border-bottom:1px solid #e2e2e2;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+}
+#mac_dream .mac_new strong{
+	line-height: 40px;
+	padding-left: 10px;
+}
+#mac_dream .mac_new span{
+	display: inline;
+	line-height: 40px;
+}
+
+#mac_buy{
+	width: 100%;
+	height: 300px;
+	padding-top: 25px;
+	text-align: center;
+	margin: 0 auto;
+}
+#mac_buy a{
+	color: #333;
+}
+#mac_buy ul{
+	width: 1014px;
+	height: 250px;
+	margin: 0 auto;
+}
+#mac_buy ul li{
+	width: 245px;
+	height: 208px;
+	padding-bottom: 25px;
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+#mac_buy h2{
+	margin-bottom: 17px;
+	font-weight: normal;
+	font-size: 20px;
+}
+#mac_buy h3{
+	width: 245px;
+	height: 50px;
+	padding-top:80px;
+	font-size: 20px;
+	font-weight: normal;	
+}
+#mac_buy h3.mac_online{
+	background: url(../img/mac_36.jpg) no-repeat 100px top;
+}
+#mac_buy h3.mac_store{
+	background: url(../img/mac_39.jpg) no-repeat 100px top;
+}
+#mac_buy h3.mac_phone{
+	background: url(../img/mac_42.jpg) no-repeat 100px top;
+}
+#mac_buy span{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	color: #08c;
+}
+#mac_buy p{
+	padding:0 28px;
+}
+#mac_buy .mac_link{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+}
+#mac_buy .mac_link a{
+	padding:5px 16px;
+}
+#mac_buy .mac_link a.mac_shop{
+	background: url(../img/xiao.png) no-repeat 0 -200px;
+	padding-left: 30px;
+}
+#mac_buy .mac_link span{
+	font-size: 12px;
+	display: inline;
+	position: static!important;
+}

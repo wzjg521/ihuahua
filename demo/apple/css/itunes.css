@@ -1,0 +1,184 @@
+body{
+	background: #fff;
+}
+#itunes_nav{
+	width: 980px;
+	height: 40px;
+	border-bottom: 1px solid #ced0d5;
+	margin: 0 auto;
+	margin-top: 18px;
+}
+#itunes_nav h2{
+	float: left;
+	font-weight: normal;
+	font-size: 26px;
+}
+#itunes_nav ul{
+	text-align: right;
+}
+#itunes_nav ul li{
+	display: inline-block;
+	padding: 10px 0 5px 30px;
+	color: #999;
+	cursor:pointer;
+}
+#itunes_nav ul li a{
+	color: #333;
+}
+#itunes_nav ul li a:hover{
+	color: #08c;
+}
+#itunes_nav ul li input{
+	width: 114px;
+	height: 22px;
+	color: #fff;
+	background: #08c;
+	border-radius: 20px;
+	border:none;
+	cursor:pointer;
+	font-size: 12px;
+}
+
+#itunes_touch{
+	width: 100%;
+	height: auto;
+	padding: 20px 0 0 0;
+	margin: 0 auto;
+	text-align: center;
+}
+#itunes_touch h1{
+	font-size: 60px;
+	color: #333;
+	padding-top: 50px;
+	line-height: 50px;
+	font-weight: normal;
+	font-family: "Georgia";
+}
+#itunes_touch h2{
+	font-weight: normal;
+	font-size: 42px;
+	padding-top: 10px;
+	letter-spacing: 1px;
+	color: #666;
+}
+#itunes_touch p{
+	width: 680px;
+	margin: 0 auto;
+	padding: 20px 300px;
+	color: #333;
+	font-size: 20px;
+	font-family: "Courier New";
+	padding-bottom: 80px;
+}
+.itunes_touch{
+	padding-bottom: 50px;
+}
+.itunes_line{
+	width: 100%;
+	height: 62px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#itunes{
+	width: 980px;
+	height: 306px;
+	margin: 0 auto;
+	padding: 70px 0 50px 0;
+	background: url(../img/itunes2.jpg) no-repeat right 70px;
+}
+#itunes h2{
+	font-size: 30px;
+	font-weight: normal;
+}
+#itunes h3{
+	font-size: 30px;
+	font-weight: normal;
+	color: #666;
+}
+#itunes p{
+	width: 40%;
+	line-height: 30px;
+	font-size: 16px;
+	color: #666;
+	padding-top: 20px;
+	letter-spacing: 1px;
+}
+#itunes span{
+	display: block;
+	font-size: 16px;
+	color: #08c;
+	padding: 20px 0;
+}
+
+#itunes_app{
+	width: 980px;
+	height: 500px;
+	margin: 0 auto;
+	background:url(../img/left_scrim.png) no-repeat left center;
+}
+#itunes_app .app_inner{
+	width: 980px;
+	height: 500px;
+	text-align: center;
+	background:url(../img/right_scrim.png) no-repeat right center;
+}
+#itunes_app h3{
+	font-size: 30px;
+	font-weight: normal;
+	color: #333;
+}
+#itunes_app a{
+	display: inline-block;
+	font-size: 14px;
+	color: #08c;
+}
+#itunes_app p{
+	padding-top: 20px;
+	font-size: 14px;
+	color: #666;
+}
+#itunes_app ul{
+	padding-top: 20px;
+}
+#itunes_app ul li{
+	display: inline-block; 
+}
+#itunes_app ul li.itunes1{
+	padding-right: 18px;
+	padding-left: 0;
+	border-right: 1px solid #d3d3d3;
+}
+#itunes_app ul li.itunes2{
+	padding:0 19px;
+}
+#itunes_app ul li.itunes3{
+	padding-left: 16px;
+	padding-right: 0;
+	border-left: 1px solid #d3d3d3;
+}
+
+
+
+
+#itunes_iso{
+	width: 980px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 20px 0;
+}
+#itunes_iso p{
+	padding-left: 20px;
+	line-height: 22px;
+	color: #666;
+	font-size: 10px;
+	letter-spacing: 1px;
+}
+#itunes_iso p a{
+	color: #000;
+	letter-spacing: 0;
+}
+#itunes_iso p a:hover{
+	text-decoration: underline;
+}
+

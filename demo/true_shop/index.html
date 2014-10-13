@@ -1,0 +1,2837 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="huahua模仿淘宝官网首页，不用于商业用途，只是练习!">
+<meta name="keywords" content="huahua_taobao,淘宝">
+<link href="css/index.css" rel="stylesheet">
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.slides.min.js"></script>
+<script src="js/index.js"></script>
+</head>
+<body>
+<!-- 头部导航 -->
+	<div id="h_nav">
+		<div class="top_nav">
+			<div class="nav_left">
+				<ul>
+					<li><a class="login" href="h_loginer.html">亲，请登录</a></li>
+					<li><a href="h_reg.html">免费注册</a></li>
+					<li><a href="phone.html">手机逛乐购</a></li>
+				</ul>
+			</div>
+			<div class="nav_right">
+				<ul>
+					<li>
+						<div class="my_taobao">
+							<a href="javascript:;">我的乐购</a>
+							<span>▼</span>
+						</div>
+						<div class="down_menu">	
+							<ul>
+								<li><a href="#">已买到的宝贝</a></li>
+								<li><a href="#">我的乐购</a></li>
+								<li><a href="#">查看购物</a></li>
+								<li><a href="#">加入我们</a></li>
+								<li><a href="#">看一看号</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="favorites">
+							<em>★</em>
+							<a href="javascript:;">收藏夹</a>
+							<span>▼</span>
+						</div>
+						<div class="down_menu">	
+							<ul>
+								<li><a href="#">已买到的宝贝</a></li>
+								<li><a href="#">我的乐购</a></li>
+								<li><a href="#">查看购物</a></li>
+								<li><a href="#">加入我们</a></li>
+								<li><a href="#">看一看号</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="classify">
+							<a href="javascript:;">商品分类</a>
+							<i> | </i>
+						</div>
+					</li>
+					<li>
+						<div class="seller_center">
+							<a href="javascript:;">卖家中心</a>
+							<span>▼</span>
+						</div>
+						<div class="down_menu">	
+							<ul>
+								<li><a href="#">已买到的宝贝</a></li>
+								<li><a href="#">我的乐购</a></li>
+								<li><a href="#">查看购物</a></li>
+								<li><a href="#">加入我们</a></li>
+								<li><a href="#">看一看号</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="contract_service">
+							<a href="javascript:;">联系客服</a>
+						</div>
+					</li>
+					<li class="last_menu">
+						<div class="nav_handle">
+							<em class="r_color">≡</em>
+							<a href="javascript:;">网站导航</a>
+							<span class="r_color">▼</span>
+						</div>
+						<div class="down_menu">	
+							<ul>
+								<li><a href="#">已买到的宝贝</a></li>
+								<li><a href="#">我的乐购</a></li>
+								<li><a href="#">查看购物</a></li>
+								<li><a href="#">加入我们</a></li>
+								<li><a href="#">看一看号</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>	
+		</div>
+	</div>
+<!-- 滚动条滚动一定位置出现的搜索导航 -->
+	<div id="search_nav">
+		<div class="search_top">
+			<a href="index.html" class="logo">
+				<img src="img/small_logo.jpg" alt="花花LOGO图标">
+			</a>
+			<form name="nav_form">
+				<div class="search_class">
+					<ul class="search_ul">
+						<li class="search_current">
+							<span>乐购</span> <em>▼</em>
+							<ul class="inner_ul">
+								<li>宝贝</li>
+								<li>店铺</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<input type="text" placeholder="搜一搜" class="search_text">
+				<input type="button" value="搜索" class="search_button">
+			</form>
+		</div>
+	</div>
+<!-- 主题内容 -->
+	<div id="main">
+	<!-- 主题头部广告随机出现一张 -->
+		<div class="M_nav">
+			<a href="javascript:;"><img src="img/top_nav.jpg" alt="主题头部广告"></a>
+			<a href="javascript:;"><img src="img/top_nav2.jpg" alt="主题头部广告"></a>
+			<a href="javascript:;"><img src="img/top_nav3.jpg" alt="主题头部广告"></a>
+			<a href="javascript:;"><img src="img/top_nav4.jpg" alt="主题头部广告"></a>
+			<div class="close">
+				<a href="javascript:;">x</a>
+			</div>
+		</div>
+	<!-- 主题搜索框部分 -->
+		<div class="M_search">
+		<!-- 左边大LOGO图标 -->
+			<div class="big_logo f_l">
+				<a href="http://ihuahua.cc">
+					<img src="img/big_logo.jpg" alt="花花家大LOGO">
+				</a>
+			</div>
+		<!-- 中间搜索 -->
+			<div class="search f_l">
+				<form>
+					<input type="text" placeholder="搜一搜" class="search_text">
+					<input type="button" value="搜索" class="search_button">
+				</form>
+				<div class="hot_search">
+					<ul>
+						<li><a class="font_color" href="javascript:;">热门搜索：</a></li>
+						<li><a href="javascript:;">家电打折</a></li>
+						<li><a class="font_color" href="javascript:;">iPhone6</a></li>
+						<li><a href="javascript:;">80元礼券</a></li>
+						<li><a href="javascript:;">自驾游</a></li>
+						<li><a href="javascript:;">市场女鞋</a></li>
+						<li><a href="javascript:;">旅游出行</a></li>
+						<li><a href="javascript:;">秋季女装</a></li>
+						<li><a href="javascript:;">出门必备</a></li>
+					</ul>
+				</div>
+			</div>
+		<!-- 右边购物车 -->
+			<div class="M_cart f_r">
+				<div class="me_cart">
+					<span class="cart_num">0</span>
+					<a class="pic_cart" href="javascript:;">购物车<em class="right_arrow"></em></a>
+					<div class="down_cart">
+						<p>
+							您的购物车是空的<br>如果您已添加过商品，可
+							<a href="javascript:;">登录</a>
+							后查看。
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 快捷导航轮播器模块 -->
+		<div id="theme">
+			<!-- 左侧快捷导航 -->
+			<div class="theme_nav f_l">
+				<div class="goods_title">
+					<a href="#">主要商品分类</a>
+				</div>
+				<div class="goods_list">
+					<ul>
+						<li>
+							<a href="#">图书</a> 、
+							<a href="#">影像</a> 、
+							<a href="#">数字用品</a>
+							<div class="slide_nav">
+								<div class="left_l">
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a href="javascript:;">经典</a>
+											<a class="y_color" href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="left_r">
+									<div class="brand">
+										<p>推荐品牌</p>
+										<div class="brand_list">
+											<a href="javascript:;">品牌一</a>
+											<a href="javascript:;">品牌二</a>
+											<a href="javascript:;">品牌三</a>
+											<a href="javascript:;">品牌四</a>
+											<a href="javascript:;">品牌五</a>
+											<a href="javascript:;">品牌六</a>
+										</div>
+										<div class="ad">
+											<img src="img/huahua.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">家用电器</a>
+							<div class="slide_nav">
+								<div class="left_l">
+									<dl>
+										<dt>
+											<a href="javascript:;">家用电器</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a href="javascript:;">经典</a>
+											<a class="y_color" href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="left_r">
+									<div class="brand">
+										<p>推荐品牌</p>
+										<div class="brand_list">
+											<a href="javascript:;">品牌一</a>
+											<a href="javascript:;">品牌二</a>
+											<a href="javascript:;">品牌三</a>
+											<a href="javascript:;">品牌四</a>
+											<a href="javascript:;">品牌五</a>
+											<a href="javascript:;">品牌六</a>
+										</div>
+										<div class="ad">
+											<img src="img/huahua.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">手机</a> 、
+							<a href="#">数码</a> 、
+							<a href="#">通讯联通</a>
+							<div class="slide_nav">
+								<div class="left_l">
+									<dl>
+										<dt>
+											<a href="javascript:;">手机通讯</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a href="javascript:;">经典</a>
+											<a class="y_color" href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="left_r">
+									<div class="brand">
+										<p>推荐品牌</p>
+										<div class="brand_list">
+											<a href="javascript:;">品牌一</a>
+											<a href="javascript:;">品牌二</a>
+											<a href="javascript:;">品牌三</a>
+											<a href="javascript:;">品牌四</a>
+											<a href="javascript:;">品牌五</a>
+											<a href="javascript:;">品牌六</a>
+										</div>
+										<div class="ad">
+											<img src="img/huahua.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">电脑</a> 、
+							<a href="#">办公</a>
+							<div class="slide_nav">
+								<div class="left_l">
+									<dl>
+										<dt>
+											<a href="javascript:;">电脑办公</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a href="javascript:;">经典</a>
+											<a class="y_color" href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="left_r">
+									<div class="brand">
+										<p>推荐品牌</p>
+										<div class="brand_list">
+											<a href="javascript:;">品牌一</a>
+											<a href="javascript:;">品牌二</a>
+											<a href="javascript:;">品牌三</a>
+											<a href="javascript:;">品牌四</a>
+											<a href="javascript:;">品牌五</a>
+											<a href="javascript:;">品牌六</a>
+										</div>
+										<div class="ad">
+											<img src="img/huahua.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">家具</a> 、
+							<a href="#">家具</a> 、
+							<a href="#">家装</a> 、
+							<a href="#">厨具</a>
+							<div class="slide_nav">
+								<div class="left_l">
+									<dl>
+										<dt>
+											<a href="javascript:;">家具家装</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a href="javascript:;">经典</a>
+											<a class="y_color" href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="left_r">
+									<div class="brand">
+										<p>推荐品牌</p>
+										<div class="brand_list">
+											<a href="javascript:;">品牌一</a>
+											<a href="javascript:;">品牌二</a>
+											<a href="javascript:;">品牌三</a>
+											<a href="javascript:;">品牌四</a>
+											<a href="javascript:;">品牌五</a>
+											<a href="javascript:;">品牌六</a>
+										</div>
+										<div class="ad">
+											<img src="img/huahua.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">男装</a> 、
+							<a href="#">女装</a> 、
+							<a href="#">首饰</a> 、
+							<a href="#">内衣</a>
+							<div class="slide_nav">
+								<div class="left_l">
+									<dl>
+										<dt>
+											<a href="javascript:;">女性时尚</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a href="javascript:;">经典</a>
+											<a class="y_color" href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="left_r">
+									<div class="brand">
+										<p>推荐品牌</p>
+										<div class="brand_list">
+											<a href="javascript:;">品牌一</a>
+											<a href="javascript:;">品牌二</a>
+											<a href="javascript:;">品牌三</a>
+											<a href="javascript:;">品牌四</a>
+											<a href="javascript:;">品牌五</a>
+											<a href="javascript:;">品牌六</a>
+										</div>
+										<div class="ad">
+											<img src="img/huahua.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">个性化妆</a>
+							<div class="slide_nav">
+								<div class="left_l">
+									<dl>
+										<dt>
+											<a href="javascript:;">个性人生</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a href="javascript:;">经典</a>
+											<a class="y_color" href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="left_r">
+									<div class="brand">
+										<p>推荐品牌</p>
+										<div class="brand_list">
+											<a href="javascript:;">品牌一</a>
+											<a href="javascript:;">品牌二</a>
+											<a class="y_color" href="javascript:;">品牌三</a>
+											<a href="javascript:;">品牌四</a>
+											<a href="javascript:;">品牌五</a>
+											<a class="y_color" href="javascript:;">品牌六</a>
+										</div>
+										<div class="ad">
+											<img src="img/huahua.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">男鞋</a> 、
+							<a href="#">女鞋</a> 、
+							<a href="#">箱包</a> 、
+							<a href="#">奢侈品</a>
+							<div class="slide_nav">
+								<div class="left_l">
+									<dl>
+										<dt>
+											<a href="javascript:;">各类鞋子</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a href="javascript:;">经典</a>
+											<a class="y_color" href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="left_r">
+									<div class="brand">
+										<p>推荐品牌</p>
+										<div class="brand_list">
+											<a href="javascript:;">品牌一</a>
+											<a href="javascript:;">品牌二</a>
+											<a href="javascript:;">品牌三</a>
+											<a href="javascript:;">品牌四</a>
+											<a href="javascript:;">品牌五</a>
+											<a href="javascript:;">品牌六</a>
+										</div>
+										<div class="ad">
+											<img src="img/huahua.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">户外运动</a>
+							<div class="slide_nav">
+								<div class="left_l">
+									<dl>
+										<dt>
+											<a href="javascript:;">健身运动</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a href="javascript:;">经典</a>
+											<a class="y_color" href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="left_r">
+									<div class="brand">
+										<p>推荐品牌</p>
+										<div class="brand_list">
+											<a href="javascript:;">品牌一</a>
+											<a href="javascript:;">品牌二</a>
+											<a href="javascript:;">品牌三</a>
+											<a href="javascript:;">品牌四</a>
+											<a href="javascript:;">品牌五</a>
+											<a href="javascript:;">品牌六</a>
+										</div>
+										<div class="ad">
+											<img src="img/huahua.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">母婴</a> 、
+							<a href="#">玩具用品</a>
+							<div class="slide_nav">
+								<div class="left_l">
+									<dl>
+										<dt>
+											<a href="javascript:;">母婴用品</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a href="javascript:;">经典</a>
+											<a class="y_color" href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="left_r">
+									<div class="brand">
+										<p>推荐品牌</p>
+										<div class="brand_list">
+											<a href="javascript:;">品牌一</a>
+											<a href="javascript:;">品牌二</a>
+											<a href="javascript:;">品牌三</a>
+											<a href="javascript:;">品牌四</a>
+											<a href="javascript:;">品牌五</a>
+											<a href="javascript:;">品牌六</a>
+										</div>
+										<div class="ad">
+											<img src="img/huahua.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">汽车保养</a>
+							<div class="slide_nav">
+								<div class="left_l">
+									<dl>
+										<dt>
+											<a href="javascript:;">汽车保养</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a href="javascript:;">经典</a>
+											<a class="y_color" href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="left_r">
+									<div class="brand">
+										<p>推荐品牌</p>
+										<div class="brand_list">
+											<a href="javascript:;">品牌一</a>
+											<a href="javascript:;">品牌二</a>
+											<a href="javascript:;">品牌三</a>
+											<a href="javascript:;">品牌四</a>
+											<a href="javascript:;">品牌五</a>
+											<a href="javascript:;">品牌六</a>
+										</div>
+										<div class="ad">
+											<img src="img/huahua.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">食品</a> 、
+							<a href="#">饮料</a> 、
+							<a href="#">小零食</a>
+							<div class="slide_nav">
+								<div class="left_l">
+									<dl>
+										<dt>
+											<a href="javascript:;">饮料食品</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a href="javascript:;">经典</a>
+											<a class="y_color" href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="left_r">
+									<div class="brand">
+										<p>推荐品牌</p>
+										<div class="brand_list">
+											<a href="javascript:;">品牌一</a>
+											<a href="javascript:;">品牌二</a>
+											<a href="javascript:;">品牌三</a>
+											<a href="javascript:;">品牌四</a>
+											<a href="javascript:;">品牌五</a>
+											<a href="javascript:;">品牌六</a>
+										</div>
+										<div class="ad">
+											<img src="img/huahua.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">营养保健</a>
+							<div class="slide_nav">
+								<div class="left_l">
+									<dl>
+										<dt>
+											<a href="javascript:;">营养保健</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a href="javascript:;">经典</a>
+											<a class="y_color" href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="left_r">
+									<div class="brand">
+										<p>推荐品牌</p>
+										<div class="brand_list">
+											<a href="javascript:;">品牌一</a>
+											<a href="javascript:;">品牌二</a>
+											<a href="javascript:;">品牌三</a>
+											<a href="javascript:;">品牌四</a>
+											<a href="javascript:;">品牌五</a>
+											<a href="javascript:;">品牌六</a>
+										</div>
+										<div class="ad">
+											<img src="img/huahua.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">彩票</a> 、
+							<a href="#">旅行</a> 、
+							<a href="#">充值</a> 、
+							<a href="#">理财</a>
+							<div class="slide_nav">
+								<div class="left_l">
+									<dl>
+										<dt>
+											<a href="javascript:;">彩票连连</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a href="javascript:;">经典</a>
+											<a class="y_color" href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">免费小说</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">励志与成功</a>
+											<a class="y_color" href="javascript:;">经典</a>
+											<a href="javascript:;">婚恋两性</a>
+											<a href="javascript:;">文学</a>
+											<a href="javascript:;">畅读VIP</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">数字音乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">爵士蓝调</a>
+											<a href="javascript:;">古典</a>
+											<a href="javascript:;">流行音乐</a>
+											<a href="javascript:;">通俗易懂</a>
+											<a href="javascript:;">乡村民谣</a>
+											<a class="y_color" href="javascript:;">有声读物</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="javascript:;">生活娱乐</a>
+										</dt>
+										<dd>
+											<a href="javascript:;">旅游地图</a>
+											<a href="javascript:;">烹饪美食</a>
+											<a href="javascript:;">时尚美妆</a>
+											<a href="javascript:;">家具</a>
+											<a href="javascript:;">休闲娱乐</a>
+											<a class="y_color" href="javascript:;">动漫幽默</a>
+											<a href="javascript:;">体育运动</a>
+											<a href="javascript:;">修身养性</a>
+											<a href="javascript:;">营养保健</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="left_r">
+									<div class="brand">
+										<p>推荐品牌</p>
+										<div class="brand_list">
+											<a href="javascript:;">品牌一</a>
+											<a href="javascript:;">品牌二</a>
+											<a href="javascript:;">品牌三</a>
+											<a href="javascript:;">品牌四</a>
+											<a href="javascript:;">品牌五</a>
+											<a href="javascript:;">品牌六</a>
+										</div>
+										<div class="ad">
+											<img src="img/huahua.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 主要部分 -->
+			<div class="wrap_theme f_l">
+				<!-- 头部导航 -->
+				<div class="title_nav">
+					<ul>
+						<li class="nav_current"><a href="#">首页</a></li>
+						<li><a href="#">大聚惠</a></li>
+						<li><a href="#">手机家电</a></li>
+						<li><a href="#">图书</a></li>
+						<li><a href="#">母婴用品</a></li>
+						<li><a href="#">美丽妆</a></li>
+						<li><a href="#">超市</a></li>
+					</ul>
+					<div class="gif_small">
+						<img src="img/gif_small.gif" alt="小动画广告">
+					</div>
+				</div>
+				<!-- 中间轮播图 -->
+				<div class="theme_banner f_l">
+					<div class="one_slide same">
+						<div id="slides">
+							<a href="#"><img src="img/banner1.jpg" alt=""></a>
+							<a href="#"><img src="img/banner2.jpg" alt=""></a>
+							<a href="#"><img src="img/banner3.jpg" alt=""></a>
+						</div>
+					</div>
+					<div class="more_slide same">
+						<div id="slides">
+							<a href="#"><img src="img/banner3.jpg" alt=""></a>
+							<a href="#"><img src="img/banner1.jpg" alt=""></a>
+							<a href="#"><img src="img/banner2.jpg" alt=""></a>
+						</div>
+					</div>
+
+				</div>
+				<!-- 右侧杂类 -->	
+				<div class="theme_life f_r">
+					<div id="tab">
+						<div class="tab_title">
+							<ul>
+								<li class="tab_current">公告</li>
+								<li>论坛</li>
+								<li>促销</li>
+								<li>公益</li>
+							</ul>
+						</div>
+						<div class="tab_content">
+							<div class="contents show_content">
+								<ul>
+									<li><a class="font_color" href="#">爸爸去哪，开播了</a></li>
+									<li><a href="#">这是什么原因NER</a></li>
+									<li><a href="#">还等什么？快来抢购吧</a></li>
+									<li><a href="#">正在促销中</a></li>
+								</ul>
+							</div>
+							<div class="contents">
+								<ul>
+									<li><a class="font_color" href="#">棉被促销，1元抢购</a></li>
+									<li><a href="#">李宁运动鞋首发</a></li>
+									<li><a href="#">美妆面膜超划算</a></li>
+									<li><a href="#">大促销，买二送一</a></li>
+								</ul>
+							</div>
+							<div class="contents">
+								<ul>
+									<li><a class="font_color" href="#">校园代理招募中</a></li>
+									<li><a href="#">正在请求中..</a></li>
+									<li><a href="#">你值得拥有</a></li>
+									<li><a href="#">呵呵，哈哈，黑恶化</a></li>
+								</ul>
+							</div>
+							<div class="contents">
+								<ul>
+									<li><a class="font_color" href="#">免费使用一星期</a></li>
+									<li><a href="#">现在买还来得及</a></li>
+									<li><a href="#">努力奋斗吧，青年</a></li>
+									<li><a href="#">有什么原因，可以..</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+
+	</div><!-- 主题内容结束 -->
+
+
+
+
+
+
+
+
+
+
+	<div class="test" style="height:2110px;position:relative;padding-top:200px;">
+		<div class="te" style="position:absolute;top:200px; left:100px;border:1px solid red;width:80px; height:40px;background:url(img/small_logo.gif) no-repeat 0 center">
+			gghggh
+		</div>
+	</div>   
+</body>
+</html>

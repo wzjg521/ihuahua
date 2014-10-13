@@ -1,0 +1,37 @@
+body,img{
+	margin:0;
+	padding:0;
+}
+#main{
+	width: 85%;
+	margin:0 auto;
+	position:relative;
+}
+#main .outPic{
+	width: 270px;
+	height: auto;
+	float: left;
+	display: none;
+}
+#main .outPic .pic{
+	width: 270px;
+	height: auto;
+	background: #fff;
+	border-radius: 5px;
+}
+#main .outPic .pic img{
+	vertical-align: middle;
+	width: 270px;
+	border:0px;
+	display:block;
+}
+
+#main #loadmore{
+	height:50px;
+	background:blue;
+	text-align:center;
+	line-height: 50px;
+	width:100%;
+	z-index: 9999;
+}
+	

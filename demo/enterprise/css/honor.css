@@ -1,0 +1,49 @@
+section .profile_content ul{
+	width: 100%;
+	height: auto;
+}
+section .profile_content ul li{
+	float: left;
+	width: 180px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+section .profile_content ul li img{
+	width: 156px;
+	height: auto;
+	padding: 5px;
+	border: 1px solid #aaa;
+}
+section .profile_content .page{
+	width: 100%;
+	padding: 20px 0;
+	color: #303030;
+}
+section .profile_content .page p{
+	float: left;
+}
+section .profile_content .page ul{
+	float: right;
+	width: auto;
+}
+section .profile_content .page li{
+	float: left;
+	width: auto;
+	padding: 0 5px;
+	background: #aaa;
+	margin: 0 3px;
+	cursor: pointer;
+}
+section .profile_content .page li a{
+	color: #303030;
+}
+section .profile_content .page li a:hover{
+	color: red;
+}
+section .profile_content .page li.current_page{
+	background: none;
+	border: 1px solid #ccc;
+}
+section .profile_content .page li.select_page{
+	background: none;
+}

@@ -1,0 +1,102 @@
+.column{
+	width: 100%;
+	height: auto;
+	border: 1px solid #dadada;
+	border-top: none;
+}
+.column ul{
+	padding: 15px;
+	background: #fff;
+}
+.column ul li{
+	width: 86%;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #dadada;
+	background:url(../images/qiye.png) no-repeat 10px -134px;
+	padding-left: 22px;
+}
+.column ul li a{
+	font-size: 14px;
+	color: #303030;
+}
+.column ul li a:hover{
+	color: red;
+}
+.main_search{
+	margin-top: 20px;
+}
+.form_search{
+	width: 100%;
+	height: auto;
+	border: 1px solid #dadada;
+	border-top: none;
+	background: #fff;
+	padding: 20px 0;
+}
+.cloumn_select{
+	width: 75%;
+	display: block;
+	margin-left: 20px;
+}
+.cloumn_select option{
+	height: 25px;
+	line-height: 25px;
+}
+.submit_text{
+	width: 75%;
+	height: 25px;
+	display: block;
+	margin: 0 auto;
+	margin:10px 0 10px 20px;
+	border: 1px solid #dadada;
+}
+.submit_btn{
+	margin-left: 20px;
+	border: 1px solid #aaa;
+	padding-left: 20px;
+	width: 60px;
+	height: 25px;
+	background: url(../images/main_search.png)no-repeat 3px center;
+	cursor: pointer;
+}
+#main{
+	background: #fff;
+}
+section .location{
+	width: 94%;
+	height: 40px;
+	padding-left: 20px;
+	
+}
+section .location p{
+	line-height: 40px;
+	border-bottom: 1px solid #aaa;
+	font-size: 12px;
+	padding-left:5px;
+	color: #454545;
+	/* box-shadow: 0px 2px 4px #aaa; */
+}
+section .location p a{
+	color: #454545;
+}
+section .location p a:hover{
+	text-decoration: underline;
+	color: red;
+}
+section .profile_content{
+	width: 94%;
+	height: auto;
+	padding: 30px 0 20px 20px;
+}
+section .profile_content img{
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+section .profile_content p{
+	line-height: 22px;
+	text-indent: 20px;
+	color: #303030;
+}
+

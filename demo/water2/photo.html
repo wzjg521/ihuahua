@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>huahua_waterfall</title>
+	<link rel="stylesheet" href="css/photo.css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<script>	
+	$(function(){
+		waterfall();
+		
+		function waterfall(){
+			var wrapDiv=$('#main');
+			var fixedWidth=270;
+			var page=0;
+			var requestNum=4;
+			var ajaxState=true;
+			var nums;
+			var outPic;
+			var requestData=[];	//ajax每次请求图片数据
+			var pageTotal=0	//总页数
+			//获得图片总数
+			$.ajax({
+				type: 'GET',
+				url: 'waterfall.php?action=count',
+				success:function(text){
+					pageTotal=Math.ceil(parseInt(text)/4)
+				}
+			})
+			
+			$(window).scroll(function(){
+				if($(document).height()-$(window).scrollTop()-$(window).height()<=10){
+				
+					if (ajaxState && page<=pageTotal) {
+						ajaxRequest();	
+						ajaxState = false;
+					}
+				}
+				
+			})
+			
+			//初始化页面图片
+			ajaxRequest()
+			function ajaxRequest() {
+				var data='';
+				if(page==0){
+					data='page=0&requestNum=16';
+					page=3;
+				}else if(page>=4 && page<=pageTotal){			
+					data='page=' + page + '&requestNum=' + requestNum;
+				}
+				setTimeout(function(){
+					$.ajax({
+						type: 'GET',
+						url: 'waterfall.php',
+						data: data,
+						sync:false,
+						dataType: 'json',
+						beforeSend: function() {
+
+						},
+						success: function(text) {						
+							for(var i=0 in text){
+								requestData.push(text[i].src);
+								var html='';
+								html+='<div class="outPic"><div class="pic"><img src="'+text[i].src+'" alt="" /></div></div>';
+								$('#main').append(html);
+
+							}
+							outPic=$('#main .outPic');
+							nums=Math.floor(wrapDiv.width()/outPic.outerWidth(true));
+							var minArray=[];
+							var i=0
+							
+							test();
+							function test(){
+								if(i>=requestData.length)return false;
+								if(i<nums){
+										imgLoadEvent(function(obj,i){
+											var trueWidth=obj.w;
+											var trueHeight=obj.h;
+											var scaleH=(trueHeight*fixedWidth)/trueWidth;
+												minArray.push(scaleH);
+												$('.box img').eq(i).css({
+													height:scaleH
+												})
+												outPic.eq(i).fadeIn()
+																		
+										},requestData[i],i)
+								
+									
+
+								}else{
+
+									imgLoadEvent(function(obj,i){
+										var trueWidth=obj.w;
+										var trueHeight=obj.h;
+										var scaleH=(trueHeight*fixedWidth)/trueWidth;
+
+										var minH=Math.min.apply({},minArray);
+										var minNum=getMinKey(minArray,minH);
+										minArray[minNum]+=scaleH;
+										var leftW=minNum*(fixedWidth);
+										outPic.eq(i).css({
+											'position':'absolute',
+											'top':minH,
+											'left':leftW,
+											'height':scaleH
+										}).fadeIn()									
+										
+									},requestData[i],i)
+								}
+
+
+								i++
+								setTimeout(function(){
+									test()
+								},100)
+								
+
+							}
+						},
+						complete: function() {
+							page++;						
+							ajaxState=true;	
+						}
+					});
+				},50) 
+			}
+
+
+
+			//通过url获得图片的长宽
+			function imgLoadEvent(callBack,url,i){
+
+				var img=new Image()
+
+				img.onreadystatechange=function(){
+
+					if(img.readyState=='complete'){
+						callBack({'w':img.width,'h':img.height},i)
+					}
+				}
+				img.onload=function(){
+					if(this.complete==true){
+						callBack({'w':img.width,'h':img.height},i)
+					}
+				}
+				img.onerror=function(){
+					callBack({'w':0,'h':0},i)
+				}
+				img.src=url;
+
+			}
+		
+
+			function getMinKey(array,minH){
+				for(var i=0;i<array.length;i++){
+					if(array[i]==minH){
+						return i;
+					}
+				}
+			}
+			
+		}
+	})
+
+</script>
+<body>
+	<div id="main">
+
+	</div>
+	
+	<!-- <div class="loadmore"></div> -->
+
+</body>
+</html>

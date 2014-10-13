@@ -1,0 +1,210 @@
+#main .title_bg,.title_product{
+	width: 100%;
+	height: auto;
+}
+
+#main .title_bg h3,.title_product h3{
+	width: 100%;
+	height: 36px;
+	background: url(../images/qiye.png) repeat-x 0 -98px;
+	border: 1px solid #dadada;
+	line-height: 36px;
+	color: #303030;
+	font-size: 14px;
+	font-weight: normal;
+}
+#main .title_bg h3 span,.title_product h3 span{
+	width: 5px;
+	height: 11px;
+	margin: 0 10px 0 10px;
+	display: inline-block;
+	background: url(../images/qiye.png) repeat-x 0 -87px;
+}
+#main .contract,.title_product{
+	margin-top: 20px;
+}
+.series ul{
+	width:100%;
+	margin: 0 auto;
+	border: 1px solid #dadada;
+	border-top: none;
+	padding: 10px 0 20px 0;
+	background: #fff;
+}
+.series ul li{
+	width: 70%;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #dadada;
+	margin: 0 auto;
+	background: url(../images/qiye.png) no-repeat 10px -134px;
+	padding-left: 26px;
+}
+.series ul li a{
+	color: #303030;
+	font-size: 14px;
+}
+.series ul li a:hover{
+	color: red;
+}
+
+.contract ul{
+	width:100%;
+	margin: 0 auto;
+	border: 1px solid #dadada;
+	border-top: none;
+	padding: 20px 0 20px 0;
+	background: #fff;
+}
+.contract ul li{
+	background: none;
+	padding-left: 20px;
+	width: 80%;
+	line-height: 20px;
+	height: 25px;
+	color: #505050;
+}
+
+
+#main .profile{
+	width: 474px;
+	height: auto;
+	float: left;
+}
+#main .company{
+	width: 100%;
+	height: auto;
+	border: 1px solid #dadada;
+	border-top: none;
+	background: #fff;
+}
+#main .company_detail img{
+	float: left;
+	padding: 20px 15px 0 20px;
+}
+#main .company_detail p{
+	line-height: 20px;
+	padding: 20px 5px 0 0;
+	text-indent: 20px;
+}
+.profile .train ul{
+	padding: 20px 0 14px 0;
+}
+.profile .train ul li{
+	width: 90%;
+	line-height: 20px;
+	height: 20px;
+	background: url(../images/qiye.png) no-repeat 10px -138px;
+	padding-left: 20px;
+}
+.profile .train a{
+	color: #303030;
+}
+.profile .train a:hover{
+	color: red;
+}
+#main .train em{
+	float: right;
+	font-style: normal;
+	color: #b6b5b5;
+	font-size: 12px;
+}
+#main .ad{
+	width: 280px;
+	height: auto;
+	float: right;
+}
+#main .ad .ad_img{
+	width: 280px;
+	height: 195px;
+	border: 1px solid #dadada;
+	border-top: none;
+	background: #fff;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;	
+}
+#main .ad .ad_img img{
+	width: 260px;
+	height: 181px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	padding: 7px 10px;
+}
+.ad_img ul{
+	position: absolute;
+	list-style-type: none;
+	z-index: 4;
+	padding:0;
+	margin: 0;
+}
+.ad_img ul li{
+	float: left;
+	margin:0px 1px;
+	padding: 0;
+	cursor:pointer;
+	width: 20px;
+	height: 16px;
+	background: url(../images/qiye.png) no-repeat 0 -202px;
+	line-height: 16px;
+	text-align: center;
+}
+
+
+#main .product{
+	width: 768px;
+	height: auto;
+	float: right;
+}
+#main .product_wrap{
+	width: 768px;
+	height: 138px;
+	border: 1px solid #dadada;
+	border-top: none;
+	background: #fff;
+	overflow: hidden;
+	padding: 30px 0;
+}
+.carousel {
+	width:768px; 
+	margin:0 auto;
+}
+.carousel .prev , .carousel .next {
+	float:left;
+	height:103px;
+	width:20px;
+	overflow:hidden;
+	display:block;
+	line-height: 103px; 
+	text-align:center;
+	text-decoration:none;
+	cursor:pointer;
+}
+.jCarouselLite {
+	float:left;
+	width:694px;
+	height:152px;
+	overflow:hidden;/*必要元素*/
+}
+.jCarouselLite li{
+	float:left;
+	height:152px;
+	width:144px;
+	text-align:center;
+}
+.jCarouselLite li img{
+	border-top: 2px solid #e2e2e4;
+	border-bottom: 2px solid #e2e2e4;
+	border-left: 1px solid #e2e2e4;
+	border-right: 1px solid #e2e2e4;
+}
+.jCarouselLite li p{
+	color: #464646;
+	cursor: pointer;
+	padding-top: 10px;
+}
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ihuahua.cc</title>
+<link rel="stylesheet" href="css/index.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.drag.js"></script>
+<script type="text/javascript" src="js/waterfall.js"></script>
+<script type="text/javascript">
+	window.onload=function(){
+		waterfallInit({
+			parent:'main',
+			pin:'pin',
+			successFn:success,
+			loadImgSrc:'./photo/loading.png',
+			requestUrl:'waterfall.php',
+			requestNum:4,
+			styles:1
+
+		});
+
+
+		function success(data){
+			var oParent=document.getElementById('main');
+			//alert(data)
+			for(var i in data){
+
+				var oPin=document.createElement('div');
+
+				oPin.className='pin';
+				oParent.appendChild(oPin);
+				var oBox=document.createElement('div');
+				oBox.className='box';
+				oPin.appendChild(oBox);
+				var oImg=document.createElement('img');
+				/*loadImg(data[i].src,callBack,oImg);*/
+				oImg.src=data[i].src;
+				oBox.appendChild(oImg);
+
+				var oH2=document.createElement('h2');
+				oH2.innerHTML='这是第'+data[i].id+'张图片';
+				oBox.appendChild(oH2);
+
+			}
+				return true;		
+		}
+	}
+
+
+</script>
+</head>
+<body>
+<div id="main">
+
+</div>
+<div class="loadmore"></div>
+</body>
+</html>

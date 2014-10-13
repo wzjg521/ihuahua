@@ -1,0 +1,10 @@
+#index_top{
+	height: 885px;
+	background: url(../img/index_bg.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% auto;
+}
+.top_content h2{
+	font-size: 20px;
+	font-weight: normal;
+}

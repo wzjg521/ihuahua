@@ -1,0 +1,814 @@
+.glyphicon{
+	font-size: 9px;
+	color: rgba(108,108,108,.6);
+}
+ul{
+	list-style-type: none;
+}
+.container{
+	padding: 0;
+	min-width: 700px;
+}
+.row{
+	margin: 0;
+	padding: 0;
+}
+span.r{
+	color: rgba(255,68,0,.9);
+}
+.header-top{
+	background: #f5f5f5;
+	min-height: 35px;
+	border-bottom:1px solid #eee;
+	font-size: 12px;
+	z-index: 10000;
+	position: relative;
+}
+.banner{
+	width: 100%;
+	overflow: hidden;
+	max-height: 40px;
+}
+.header-y{
+	list-style-type: none;
+	float: left;
+	display: block;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.header-y li{
+	float: left;
+	line-height: 34px;
+}
+#header-l li{
+	padding: 0 5px;
+}
+.header-y li a{
+	color: #6c6c6c;
+	letter-spacing: 1px;
+	text-align: center;
+}
+.header-y li a:hover{
+	color: #f22e00;
+	text-decoration: none;
+}
+#header-l li a.active-l{
+	color: #f22e00;
+}
+#header-r{
+	float: right;
+	padding-left: 0 0 0 10px;
+	min-height: 35px;
+}
+#header-r .down{
+	position: relative;
+}
+#header-r .down .down-menu{
+	position: relative;
+	z-index: 1002;
+	display: block;
+	line-height: 35px;
+	padding:0 5px;
+	border:1px solid #f5f5f5;
+	border-bottom:none;
+}
+#header-r li.down .my-taobao{
+	position: absolute;
+	top: 35px;
+	left: 0;
+	border:1px solid #eee;
+	display: none;
+	background: #fff;
+	z-index: 1001;
+	font-size: 12px;
+	padding:5px;
+}
+#header-r li.down .mine{
+	width: 130%;
+}
+#header-r li.down .myshop{
+	width: 350%;
+}
+#header-r li.down .mystore{
+	width: 100%;
+}
+#header-r li.down .navmenu{
+	position: absolute;
+	top: 35px;
+	right: 0;
+	left: auto;
+}
+#header-r li.down .navmenu .ul1{
+	list-style-type: none;
+	float: left;
+	padding: 0 0 0 10px;
+}
+#header-r li.down .navmenu li{
+	float: left;
+}
+#header-r li.down .navmenu li a{
+	display: block;
+	padding:5px 6px;
+	font-size: 14px;
+	font-weight: normal;
+}
+#header-r li.down .navmenu .current-hot{
+	background: none;
+}
+#header-r li.down .navmenu li a:hover{	
+	color: #fff;
+	background: #f22e00;
+}
+#header-r li.down .navmenu .theme-score li a:hover{
+	background: #f22e00;
+}
+#header-r li.down .navmenu .dshop li a:hover{
+	background: green;
+}
+#header-r li.down .navmenu .current-hot li a:hover{
+	background: maroon;
+}
+#header-r li.down .navmenu .more-active li a:hover{
+	background: #06f;
+}
+
+#header-r li.down .navmenu .navmenu-list{
+	border-right: 1px solid #eee;
+	padding:0;
+	width: 25%;
+	float: left;
+}
+
+
+#header-r li.down .navmenu .navmenu-list p{
+	margin: 0 0 0 10px;
+	font-weight: bold;
+	font-size: 16px;
+}
+#header-r li.down .navmenu .navmenu-list p.navmenu-title1{
+	color: #f22e00;
+}
+#header-r li.down .navmenu .navmenu-list p.navmenu-title2{
+	color: green;
+}
+#header-r li.down .navmenu .navmenu-list p.navmenu-title3{
+	color: maroon;
+}
+#header-r li.down .navmenu .navmenu-list p.navmenu-title4{
+	color: #06f;
+}
+#header-r li.down .navmenu .w{
+	border:none;
+}
+
+#header-r li.down .my-taobao a{
+	display: block;
+	text-align: left;
+	line-height: 22px;
+}
+#header-r li.down .my-taobao a:hover{
+	background: #f5f5f5;
+}
+
+
+.search .logo{
+	padding: 15px 0 0 0;
+}
+.form-search{
+	padding: 0;
+}
+.search .li-search{
+	padding-left: 20px;
+}
+.search .li-search ul li{
+	cursor: pointer;
+}
+.search .logo form{
+	padding: 0;
+}
+
+.search .logo form input.searching{
+	min-height: 41px;
+	border: 3px solid #f22e00;
+	text-indent: 15px;
+	font-size: 12px;
+	background: url(../images/taobao_114.png) no-repeat 5px center;
+	box-shadow: none;
+}
+.search .logo form input.form-control{
+	border-radius: 0;
+}
+.search .search-btn{
+	min-height: 41px;
+	background: #f22e00;
+	border: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	border-radius: 0;
+	letter-spacing: 2px;
+}
+
+.search ul{
+	padding-left: 0;
+}
+.search ul li{
+	float: left;
+	padding: 5px 10px;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+.search ul li.baby{
+	background: #f22e00;
+	color: #fff;
+}
+
+.search .barcode{
+	background: red;
+	width: 100%;
+	position: relative;
+}
+.search .barcode-inner{
+	position: absolute;
+	top: -10px;
+	right: 0;
+	width: 100%;
+}
+.search .barcode .ph-tb{
+	border: 1px solid #eee;
+	text-align: center;
+	padding: 5px;
+	float: right;
+	font-size: 12px;
+}
+.search .barcode img{
+	display: block;
+}
+.search .close-barcode{
+	float: right;
+	border: 1px solid #eee;
+	border-right: none;
+}
+#more-search li{
+	padding: 5px 3px;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 20px;
+	letter-spacing: 1px;
+}
+#more-search li a{
+	color: #333;
+	text-decoration: none;
+}
+#more-search li a:hover{
+	color: #f22e00;
+}
+#more-search li a.active{
+	color: #f22e00;
+}
+#more-search li a.much{
+	display: block;
+	border: 1px solid #eee;
+	padding-left: 2px;
+}
+#more-search li a.much:hover{
+	background: #f22e00;
+	color: #fff;
+}
+.search .logo-taobao{
+	padding: 10px 0 0 0;
+	display: block;
+}
+
+
+/* 模块二 */
+.out-special{
+	padding: 0;
+}
+.special{
+	border: 1px solid #f22e00;
+	padding: 0 0 10px 0;
+}
+.special h3{
+	background: #f22e00;
+	font-weight: bold;
+	font-size: 16px;
+	min-height: 35px;
+	color: #fff;
+	letter-spacing: 1px;
+	padding: 0;
+	margin: 0;
+	line-height: 35px;
+	text-indent: 10px;
+}
+.special .theme-more{
+	text-align: right;
+	font-size: 12px;
+	padding: 0 3px;
+	border: 1px solid #eee;
+	display: block;
+	float: right;
+	color: #333;
+	text-decoration: none;
+}
+.special dl{
+	padding: 10px 5px 0 10px;
+	margin: 0;
+}
+.special .theme-logo{
+	background: url(../images/taobao_15.jpg) no-repeat left center;
+	float: left;
+	width: 30px;
+	height: 20px;
+}
+.special .special-shop{
+	background: url(../images/taobao_31.jpg) no-repeat left center;
+}
+.special .promotional{
+	background: url(../images/taobao_51.jpg) no-repeat left center;
+}
+.special a.theme-more:hover{
+	background: #f22e00;
+	color: #fff;
+}
+.special dd{
+	padding: 10px 0;
+	border-bottom: 1px solid #E0E0E0;
+}
+.special dd a{
+	padding: 5px 6px;
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+.special dd a:hover{
+	color: #f22e00;
+}
+.special .special-tool{
+	padding: 5px 8px;
+}
+.special .special-tool li{
+	float: left;
+	font-size: 12px;
+	padding: 0 10px 0 10px;
+}
+.special .special-tool li a{
+	text-decoration: none;
+	color: #333;
+}
+.special{
+	margin-top: 10px;
+}
+.out-special .jubao{
+	padding: 6px 0 0 5px;
+}
+.main{
+	padding-right:0; 
+	padding-top: 10px;
+}
+#taobao-nav{
+	border-bottom: 2px solid #f22e00;
+	float: left;
+	width: 100%;
+}
+#taobao-nav ul{
+	margin: 0;
+}
+#taobao-nav ul li{
+	float: left;
+	line-height: 33px;
+	padding: 0 12px;
+}
+
+#taobao-nav ul li a{
+	font-weight: bold;	
+	text-decoration: none;
+}
+#taobao-nav ul li a:hover{
+	color: #f22e00;
+}
+#nav1 li a{
+	font-size: 16px;
+	color: #f22e00;
+}
+#nav2 li a{
+	font-size: 14px;
+	color: #333;
+}
+#nav3 li a{
+	font-size: 12px;
+	color: #333;
+	font-size: 12px;
+}
+#nav1{
+	float: left;
+	padding: 0;
+}
+#nav2{
+	float: left;
+	padding: 0 0 0 35px;
+}
+#nav3{
+	float: right;
+}
+
+#taobao-main .main-l{
+	padding: 10px 0 0 0;
+	margin: 0;
+}
+#taobao-main .main-r{
+	padding: 10px 0 0 7px;
+}
+#taobao-main .main-banner,#taobao-main .banner-r{
+	padding: 0;
+	margin: 0;
+	max-height: 280px;
+	overflow: hidden;
+}
+.main-rtab{
+	border: 1px solid #DBDBDB;
+}
+#myTab li a{
+	padding: 5px 5px;
+	border-radius: 0;
+}
+#myTabContent .tab-pane{
+	padding: 5px;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+}
+.main-banner,.banner-r{
+	padding: 0;
+	max-height: 250px;
+	overflow: hidden;
+}
+.banner2-r{
+	padding: 0;
+	max-height: 180px;
+	overflow: hidden;
+}
+.main-r .self-login{
+	background: url(../images/taobao_108.png) no-repeat right top;
+	border: 1px solid #DBDBDB;
+	border-top: none;
+	float: left;
+	padding: 0;
+}
+.main-r .selftop{
+	background: url(../images/taobao_23.jpg) no-repeat left center;
+	padding-left:70px;
+	padding-top:5px; 
+	float: left;
+}
+.main-r .selftop img{
+	display: inline;
+	padding-left: 0;
+	padding-right: 0;
+}
+.main-r .selfbottom a{
+	padding: 8px 0 3px 0;
+	margin: 0;
+	display: inline-block;
+}
+.main-r .selfbottom img{
+	padding:0 4px; 
+}
+.main-r .service{
+	border: 1px solid #DBDBDB;
+	border-top: none;
+	border-bottom: none;
+	background: #eee;	
+}
+.main-r .service h3{
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	line-height: 25px;
+	text-indent: 10px;
+}
+.main-r .service-a{
+	background: #eee;	
+	outline: 1px solid #DBDBDB;
+	display: block;
+	float: left; 
+}
+.main-r .service a{
+	display: inline-block;
+	padding:4px 8px; 	
+}
+.banner-mid{
+	background: #F5F5F5;
+	margin-top: 5px;
+	border: 1px solid #eee;
+}
+img.dh-banner{
+	position: relative;
+	top: -3px;
+	left: 0;
+}
+.current-hot{
+	background: url(../images/taobao_60.jpg) no-repeat right center;
+	padding: 5px 13px;
+	margin: 0;
+}
+.current-hot a{
+	line-height: 25px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+}
+.current-list{
+	padding:5px 15px;
+}
+.current-list a{
+	font-size: 12px;
+	line-height: 25px;
+	color: #333;
+	text-decoration: none;
+}
+.current-list a:hover{
+	color: #f22e00;
+}
+.main-middle{
+	padding: 5px 0 10px 0;
+}
+.main-middle .onepin{
+	padding:0;
+}
+.main-middle .pinouter{
+	padding-left:0; 
+	padding-right: 10px;
+	padding-top: 15px;
+}
+.main-middle .pin-each{
+	border: 1px solid #D8D8D8;
+}
+.main-middle .pintitle{
+	background: #FF68B4;
+	margin: 0;
+	padding: 0 0 0 15px;
+}
+.main-middle .pintitle h3{
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	color: #fff;
+	line-height: 25px;
+	font-size: 16px;
+	min-height: 25px;
+	display: inline;
+}
+.main-middle .pintitle em{
+	float: right;
+	font-style: normal;
+	font-size: 12px;
+	color: #fff;
+	line-height: 25px;
+	padding-right: 5px;
+}
+.main-middle .pintitle .temai{
+	font-size: 12px;
+	line-height: 25px;
+	color: #FF68B4;
+	margin-left: 20px;
+	width: 121px;
+	height: auto;
+	display: inline-block;
+	text-indent: 17px;
+	background: url(../images/taobao_64.png) no-repeat left center;
+}
+.main-middle .hua-footer ul{
+	padding: 0;
+	margin: 0;
+}
+.main-middle .hua-footer ul li{
+	float: left;
+	padding: 5px 2px;
+}
+
+.main-middle .hua-footer ul li a{
+	color: #333;
+	font-size: 12px;
+	text-decoration: none;
+}
+.main-middle .hua-footer ul li a:hover{
+	color: #f22e00;
+}
+.main-middle .hua-footer .hua-ul{
+	padding-right: 0;
+	padding-top: 5px;
+}
+.main-middle .hua-footer .hua-ul .huaul-title{
+	font-weight: bold;
+}
+.huahua-img{
+	padding-left: 0;
+	margin: 10px 0 0 3px;
+}
+.siderbar{
+	padding: 15px 0;
+}
+.siderbar-inner{
+	background: #eee;
+	border: 1px solid  #D8D8D8;
+	padding-bottom: 10px;
+}
+.siderbar .inner1{
+	border-bottom: none;
+}
+.siderbar .inner2{
+	border-top: none;
+}
+.siderbar .inner2 img{
+	padding-top: 10px;
+}
+.siderbar-inner h3{
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+	text-indent: 35px;
+	padding-top: 5px;
+	letter-spacing: 1px;
+	background:url(../images/taobao_68.jpg) no-repeat 10px 65%;
+}
+.siderbar-inner dl{
+	border: 1px solid #D8D8D8;
+	border-bottom: none;
+	margin:0 10px;
+	padding:20px 10px;
+	background: #fff;
+}
+.siderbar-inner dl.sider-tupin{
+	display: inline-block;
+	border-bottom: 1px solid #D8D8D8;
+}
+.siderbar-inner dl.change{
+	padding-top: 5px;
+	padding-bottom: 30px;
+	font-weight: normal;
+	margin-top: 0;
+	border-bottom: 1px solid #DBDBDB;
+}
+.siderbar-inner dl.sider-tupin dt{
+	padding-bottom: 7px;
+}
+.siderbar-inner dl dt{
+	float: left;
+	padding-right: 10px;
+	line-height: 25px;
+}
+.siderbar-inner dl dd{
+	text-align: left;
+	line-height: 25px;
+}
+.siderbar .inner2 dd img{
+	display: inline;
+}
+.siderbar-inner dl dd.sider-title{
+	font-size: 13px;
+	font-weight: bold;
+}
+.siderbar-inner dl dd.sider-content{
+	font-size: 12px;
+	color: #333;
+	padding-right: 5px;
+}
+.siderbar-inner dl dd.sider-commen{
+	color: #f22e00;
+}
+.hua-border{
+	border: 1px solid #eee;
+}
+.hot-ul{
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+.hot-ul li{
+	display: inline;
+	padding: 3px;
+	font-size: 12px;
+}
+.row-title{
+	padding-top: 20px;
+}
+.parter{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+.parter a{
+	display: inline;
+	line-height: 25px;
+}
+.hezuo{
+	font-size: 12px;
+	line-height: 25px;
+	color: #A1A1A1;
+}
+.address{
+	font-size: 12px;
+	line-height: 25px;
+	color: #A1A1A1;
+}
+
+@media(max-width: 767px){
+	.special dl{
+		padding: 5px 5px 0 5px;
+		margin: 0;
+	}
+	.special dd a{
+		padding: 3px 0;
+		letter-spacing: 0;
+		font-size: 10px;
+	}
+	.special dd{
+		padding: 9px 0 1px 0;
+		border-bottom: 1px solid #E0E0E0;
+	}
+	.special .special-tool li{
+		float: left;
+		font-size: 10px;
+		padding: 0 1px 0 0;
+	}
+	.special .special-tool{
+		padding: 2px 8px;
+	}
+	#taobao-nav ul li{
+		padding: 0 2px;
+	}
+	#nav2{
+		padding: 0 0 0 10px;
+		font-size: 12px;
+	}
+	#nav3{
+		padding: 0;
+	}
+	.main-r .selftop{
+		padding-top: 15px;
+	}
+	.current-hot a{
+		font-size: 11px;
+		line-height: 15px;
+	}
+	.current-hot{
+		padding: 3px 2px;
+	}
+	.current-list a{
+		font-size: 8px;
+		line-height: 15px;
+	}
+	.current-list{
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.main-middle .pintitle h3{
+		font-size: 9px;
+		padding-right: 0;
+	}
+	.main-middle .pintitle em{
+		font-size: 8px;
+		padding-left: 0;
+	}
+	.main-middle .pintitle .temai{
+		font-size: 9px;
+		line-height: 25px;
+		color: #FF68B4;
+		margin-left: 5px;
+		width: 90px;
+		height: auto;
+		display: inline-block;
+		text-indent: 10px;
+		background: url(../images/taobao_64.jpg) no-repeat left center;
+		padding-right: 0;
+	}
+	.main-middle .pintitle{
+		padding-left: 2px;
+	}
+	.main-middle .hua-footer ul li a{
+		font-size: 8px;
+	}
+	.main-middle .hua-footer ul li{
+		padding: 0 1px;
+	}
+	.siderbar-inner dl dt{
+		padding-right: 20px;
+	}
+	.siderbar-inner dl.sider-tupin dt{
+		padding: 5px;
+	}
+	.siderbar-inner dl.sider-tupin dt img{
+		width: 32px;
+	}
+}

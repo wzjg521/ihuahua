@@ -1,0 +1,203 @@
+body{
+	background: #fff;
+}
+#infor{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #f3f3f3;
+}
+#infor .welcome{
+	width: 943px;
+	height: auto;
+	padding-left: 37px;
+	min-height: 200px;
+	max-height: 304px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: url(../img/technology.png) no-repeat 92% top;
+	margin-top: 18px;
+}
+#infor .welcome h1{
+	width: 580px;
+	text-align: center;
+	padding: 44px 0 10px 0;
+	font-size: 42px;
+	font-weight: normal;
+}
+#infor .welcome p{
+	width: 580px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 18px;
+	color: #777777;
+}
+
+#tech_banner{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #f3f3f3;
+	padding:50px 0 50px 0;	
+}
+.banner_wrap {
+	width:980px;
+	height: 400px;
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+	zoom:1;
+}
+#slides {
+	position:absolute;
+	top:15px;
+	left:4px;
+	z-index:100;
+}
+.slides_container {
+	width:980px;
+	overflow: visible!important;
+	position:relative;
+	display:none;
+}
+.slides_container div.slide {
+	width:800px;
+	height:380px;
+	padding: 0 90px;
+	display:block;
+}
+.slide ul li{
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+}
+.slide ul li p{
+	line-height: 40px;
+	font-size: 16px;
+	color: #777;
+}
+#slides .next,#slides .prev {
+	position:absolute;
+	top:125px;
+	left:-87px;
+	width:24px;
+	height:43px;
+	display:none;
+	z-index:101;
+}
+
+#slides .next {
+	left:1000px;
+}
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 10px;
+	list-style:none;
+}
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination1.png);
+	background-position:0 -1px;
+	float:left;
+	overflow:hidden;
+}
+.pagination li.current a {
+	background-position:0 -13px;
+}
+/* a:link,a:visited {
+	color:#599100;
+	text-decoration:none;
+}
+a:hover,a:active {
+	color:#599100;
+	text-decoration:underline;
+} */
+#share{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #f3f3f3;
+}
+#share .share_contract{
+	width: 980px;
+	height: 260px;
+	margin: 0 auto;
+	padding-top: 35px;
+}
+#share .share_contract ul li{
+	width: 45%;
+	float:left;
+	text-align: center;
+}
+#share .share_contract ul li h3{
+	font-size: 22px;
+	line-height: 40px;
+	color: #303030;
+	font-weight: normal;
+}
+#share .share_contract ul li p{
+	width: 70%;
+	font-size: 14px;
+	margin: 0 auto;
+	color: #888;
+}
+#share .share_contract .share_img{
+	text-align: center;
+	height: 108px;
+	line-height: 108px;
+}
+#share .share_contract img{
+	vertical-align: middle;
+}
+#share .share_contract span{
+	color: #0088cc;
+	font-size: 14px;
+}
+
+#service{
+	width: 980px;
+	height: auto;
+	margin: 0 auto;
+}
+#service .service_inner{
+	padding-left: 60px;
+	margin: 28px 0;
+}
+#service .chinese{
+	background: url(../img/china.png) no-repeat 60px center;
+}
+#service .apple{
+	background: url(../img/apple_ico.png) no-repeat 60px center;
+}
+#service .service_inner h3{
+	padding-left: 50px;
+	font-size: 14px;
+	font-weight: normal;
+}
+#service .service_inner p{
+	padding-left: 50px;
+}
+#service .service_inner a{
+	color: #08c;
+	line-height: 25px;
+}
+#service .service_inner ul{
+	padding-left: 50px;
+}
+#service .service_inner ul li{
+	display: inline;
+}
+#service .service_inner ul li:before{
+	content: '|';
+	padding:6px;
+	color: #ddd;
+}
+#service .service_inner ul li:first-child:before{
+	content:'';
+	padding: 0;
+}

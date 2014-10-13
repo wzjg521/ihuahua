@@ -1,0 +1,22 @@
+body,h1,h2,h3,p,dl,dd,ul,form,input{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+input{
+	outline: none;
+}
+body{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	background: #f1f1f1;
+}

@@ -1,0 +1,38 @@
+section .message .mess_text{
+	width: 510px;
+	height: 30px;
+	border: 1px solid #aaa;
+}
+section .message dd{
+	color: #303030;
+	font-size: 14px;
+	padding: 10px 0 10px 10px;
+}
+section .message .textarea_content{
+	width: 508px;
+	height: 150px;
+	resize:none;
+	border: 1px solid #aaa;
+}
+section .message span{
+	color: red;
+	padding-left: 10px;
+}
+section .message span.feedback{
+	padding: 0;
+	color: #303030;
+	vertical-align:75px;
+}
+section .message span.feedback_star{
+	vertical-align:75px;
+}
+section .message .mess_submit{
+	width: 100px;
+	height: 30px;
+	border: 1px solid #aaa;
+	color: #303030;
+	font-size: 14px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	margin-left: 70px;
+}
