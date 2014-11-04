@@ -5,7 +5,7 @@ body{
 	color:#3c3c3c;
 	font: 12px/1.5  Arial,sans-serif;
 }
-ul,p,input,form,dl,dd{
+ul,p,input,form,dl,dd,h3{
 	margin:0;
 	padding: 0;
 }
@@ -14,6 +14,7 @@ input,a{
 }
 img{
 	border:none;
+	display: block;
 }
 li{
 	list-style-type: none;
@@ -580,7 +581,7 @@ a{
   bottom:10px;
   left:46%;
   list-style: none;
-  z-index: 9988;
+  z-index: 9987;
   padding:0;
   margin:0;
 }
@@ -666,6 +667,139 @@ a{
 #tab .tab_content .show_content{
 	display: block;
 }
+
+#theme .wrap_theme .theme_life .tab_img{
+	border:1px solid #ddd;
+	border-top: none;
+	overflow: hidden;
+}
+
+#tab_server{
+	border:1px solid #ddd;
+	background: #f8f8f8;
+	border-top:none;
+	height: 223px;
+}
+#tab_server h3{
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bolder;
+	padding: 5px 10px;
+}
+#tab_server .server_detail{
+	overflow: hidden;
+	padding-left: 3px;
+}
+#tab_server .server_detail a{
+	display: block;
+	float: left;
+	width:60px;
+	height: 54px;	
+	background: #fff;
+	border:1px solid #ddd;
+	margin:2px 3px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+#tab_server .server_detail a:hover{
+	color:#06f;
+}
+
+#tab_server .server_detail a p{
+	line-height: 20px;
+	padding-top:30px;
+}
+#tab_server .server_detail a i{
+	position: absolute;
+	top:0;
+	display: block;
+	width:100%;
+	padding:15px 0;
+	background: url(../img/server.png) no-repeat;
+	background-position: 68% 6px;
+}
+#tab_server .server_detail a i.hf{
+	background-position: 68% 6px;
+}
+#tab_server .server_detail a i.yx{
+	background-position: 56% -22px;
+}
+#tab_server .server_detail a i.lx{
+	background-position: 62% -56px;
+}
+#tab_server .server_detail a i.bx{
+	background-position: 68% -88px;
+}
+#tab_server .server_detail a i.cp{
+	background-position: 68% -120px;
+}
+#tab_server .server_detail a i.dy{
+	background-position: 68% -150px;
+}
+#tab_server .server_detail a i.wm{
+	background-position: 68% -182px;
+}
+#tab_server .server_detail a i.lc{
+	background-position: 68% -211px;
+}
+#tab_server .server_detail a i.dz{
+	background-position: 68% -238px;
+}
+#tab_server .server_detail a i.yy{
+	background-position: 68% -266px;
+}
+#tab_server .server_detail a i.sd{
+	background-position: 68% -298px;
+}
+#tab_server .server_detail a i.qd{
+	background-position: 40% -328px;
+}
+#main .middle_ad{
+	height:60px;
+	background: #f8f8f8;
+	padding:10px 0;
+	border:1px solid #ddd;
+	margin:15px 0;
+}
+#main .middle_ad ul li{
+	float: left;
+	width:25%;
+	position: relative;
+	overflow: hidden;
+}
+#main .middle_ad ul li h3{
+	font-size: 16px;
+	float: left;
+	padding:10px 10px 12px 10px;
+	margin:10px 10px 0 0;
+	border-right: 1px solid #ddd;
+}
+
+#main .middle_ad ul li span a{
+	display: inline-block;
+	padding-top:10px;
+	padding-right:8px;
+}
+#main .middle_ad ul li span a:hover{
+	color:#f60;
+}
+#main .middle_ad ul li .slide_ad{
+
+}
+/* @keyframes myfirst{
+	from {background: red;}
+	to {background: yellow;}
+}
+
+@-webkit-keyframes myfirst{ Safari and Chrome
+	from {background: red;}
+	to {background: yellow;}
+}
+#tab_server .server_detail a:hover i{
+	animation: myfirst 5s;
+	-webkit-animation: myfirst 5s; Safari and Chrome
+} */
 
 
 

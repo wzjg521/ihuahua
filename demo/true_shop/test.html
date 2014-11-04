@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
+<script>
+	$(function(){
+		jQuery.validator.addMethod("isqq", function(value, element) {  
+		    var tel = /[1-9][0-9]{4,}/;
+		    return this.optional(element) || (tel.test(value));
+		}, "请正确填写您的QQ号码");
+
+		$("#reg").find('form[name="reg"]').validate({
+			rules:{
+				user: {    //验证qq
+				 	required:true,
+				 	isqq:true
+		        },
+			    pwd:{
+			        required:true,
+			        rangelength:[8,20]
+			    },
+			    notpass:{
+			    	required:true,
+			    	equalTo: "#pwd"
+			    },
+			    vercode:"required"
+		    },
+	        messages:{
+		      	user: {
+		      		required:"帐号不能为空",
+		      	},
+		      	pwd:{
+			        required:"密码不能为空",
+			        rangelength:"密码长度必须在8～20位之间"
+			    },
+			    notpass:{
+			    	required:"请输入确认密码",
+    				equalTo: "两次输入密码不一致"
+			    },
+			    vercode:{
+			    	required:"请输入验证码"
+			    }
+	   	 	},
+	   	 	onkeyup: false,
+	   	 	submitHandler:function(form){
+			  	$(form).ajaxSubmit(); 	
+   			},
+		})
+	})
+
+</script>
+<style>
+	#reg{
+		width:430px;
+		border:1px solid #ccc;
+		overflow: hidden;
+		padding-bottom: 20px;
+	}
+	#reg dt{
+		float: right;
+		height: 280px;
+		padding:10px 10px 0 10px;
+		border-left: 1px solid #ccc;
+	}
+	#reg dl dd{
+		height: 45px;
+		margin-left: 20px;
+		vertical-align: top;
+	}
+	#reg dl dd.co{
+		height: 35px;
+		font-size: 12px;
+	}
+	#reg dl dd.co label{
+		width:auto;
+	}
+	#reg dl dd.co input.co_ico{
+		vertical-align: -3px;
+		cursor: pointer;
+	}
+	#reg dd label{
+		width:54px;
+		display: inline-block;
+	}
+	#reg dl dd label.error{
+		width:auto;
+		color:red;
+		padding-left:64px;
+		font-size: 12px;
+	}
+</style>
+</head>
+<body>
+<input type="text" id="qq">
+   <div id="reg">
+   	<form name="reg">
+   		<dl>
+   			<dt>已有石榴甜帐号?<br>现在<a href="#">登录</a></dt>
+   			<dd class="co">
+   			<label>
+   				企业<input checked="checked" type="radio" name="personal" class="co_ico">
+   			</label>
+   			<label>
+   				个人<input type="radio" name="personal" class="co_ico">
+   			</label>
+   			<label>
+   				非制作公司<input type="radio" name="personal" class="co_ico">
+   			</label>	
+   			</dd>
+   			<dd>
+   				<label for="user">帐号</label>
+   				<input type="text" name="user" id="user" class="texts">
+   			</dd>
+   			<dd>
+   				<label for="pwd">密码</label>
+   				<input type="password" name="pwd" id="pwd" class="texts">
+   			</dd>
+   			<dd>
+   				<label for="notpass">重复</label>
+   				<input type="password" name="notpass" id="notpass" class="texts">
+   			</dd>
+   			<dd>
+   				<label for="vercode">验证码</label>
+   				<input type="text" name="vercode" id="vercode" class="texts">
+   			</dd>
+   			<dd>
+   				<input type="checkbox" checked="checked"> 阅读并同意《用户服务协议》
+   			</dd>
+   			<dd>
+   				<input type="submit" value="注册" class="submit">
+   			</dd>
+   		</dl>
+   	</form>
+   </div> 
+</body>
+</html>

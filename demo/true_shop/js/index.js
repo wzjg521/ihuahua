@@ -105,7 +105,12 @@ $(function(){
 		$('#tab .contents').eq(tab_index).stop().show().siblings('.contents').stop().hide();
 	
 	})
-
+/*sever服务*/
+	$('#tab_server a').mouseover(function(){
+		$(this).find('i').css('top','-30px').stop().animate({
+			'top':0
+		})
+	})
 //test内容
 	// $('.te').hover(function(){
 	// 	$(this).stop().animate({
