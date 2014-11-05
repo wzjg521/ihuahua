@@ -95,48 +95,142 @@
 		font-size: 12px;
 	}
 </style>
+<style>
+	.star{
+		width:200px;
+		height: 200px;
+		border:1px solid #dc062d;
+		position: absolute;
+		top:200px;
+		right:200px;
+	}
+	.star span{
+		display:block;
+		float: left;
+		width:16px;
+		height: 16px;
+		padding-right:2px;
+		background:url(img/start.png) no-repeat 0 -16px;
+		cursor:pointer;
+	}
+	.star span.orange_star{
+		background: url(img/start.png) no-repeat 0 0;
+	}
+
+	.star span.red_star{
+		background: url(img/start.png) no-repeat 0 -32px;
+	}
+	.star em{
+		font-size: 0.8em;
+		font-style: normal;
+		width:auto;
+		vertical-align:2px;
+		background: none;
+		padding-left: 4px;
+	}
+	.star em.star_title{
+		float: left;
+		line-height: 20px;
+	}
+</style>
+<script>
+$(function(){
+	// 星星hover效果
+	$('.eval_star').hover(function(){
+		var title=$(this).attr('title');
+		$('.eval').text(title);
+		var _this=this;
+		$('.eval_star').removeClass('orange_star');
+		$('.eval_star').each(function(i){
+			if(i<=$(_this).index('.eval_star')){				
+				$('.eval_star').eq(i).addClass('orange_star');	
+			}
+		})
+	},function(){
+		$('.eval').text($('.eval').attr('title'));
+		$('.eval_star').removeClass('orange_star');
+	})
+	// 星星点击效果
+	$('.eval_star').click(function(){
+		$('.eval_star').removeClass('red_star');
+		var _this=this
+		$('.eval_star').each(function(i){
+			if(i<=$(_this).index('.eval_star')){
+				$('.eval_star').eq(i).addClass('red_star');
+			}
+		})
+		$('.eval').html($(this).attr('title')).attr('title',$(this).attr('title'));
+
+		// $.ajax({
+		// 	url:THINKPHP['module']+'/Index/star',
+		// 	type:'post',
+		// 	data:{
+		// 		keys:$('.eval').attr('title')
+		// 	},
+		// 	beforSend:function(){
+		// 		//loading
+		// 	},
+		// 	success:function(){
+		// 		//success
+		// 	}
+		// })
+	})
+})
+
+</script>
 </head>
 <body>
-<input type="text" id="qq">
+<!-- 注册 -->
    <div id="reg">
-   	<form name="reg">
-   		<dl>
-   			<dt>已有石榴甜帐号?<br>现在<a href="#">登录</a></dt>
-   			<dd class="co">
-   			<label>
-   				企业<input checked="checked" type="radio" name="personal" class="co_ico">
-   			</label>
-   			<label>
-   				个人<input type="radio" name="personal" class="co_ico">
-   			</label>
-   			<label>
-   				非制作公司<input type="radio" name="personal" class="co_ico">
-   			</label>	
-   			</dd>
-   			<dd>
-   				<label for="user">帐号</label>
-   				<input type="text" name="user" id="user" class="texts">
-   			</dd>
-   			<dd>
-   				<label for="pwd">密码</label>
-   				<input type="password" name="pwd" id="pwd" class="texts">
-   			</dd>
-   			<dd>
-   				<label for="notpass">重复</label>
-   				<input type="password" name="notpass" id="notpass" class="texts">
-   			</dd>
-   			<dd>
-   				<label for="vercode">验证码</label>
-   				<input type="text" name="vercode" id="vercode" class="texts">
-   			</dd>
-   			<dd>
-   				<input type="checkbox" checked="checked"> 阅读并同意《用户服务协议》
-   			</dd>
-   			<dd>
-   				<input type="submit" value="注册" class="submit">
-   			</dd>
-   		</dl>
-   	</form>
+	   	<form name="reg">
+	   		<dl>
+	   			<dt>已有石榴甜帐号?<br>现在<a href="#">登录</a></dt>
+	   			<dd class="co">
+	   			<label>
+	   				企业<input checked="checked" type="radio" name="personal" class="co_ico">
+	   			</label>
+	   			<label>
+	   				个人<input type="radio" name="personal" class="co_ico">
+	   			</label>
+	   			<label>
+	   				非制作公司<input type="radio" name="personal" class="co_ico">
+	   			</label>	
+	   			</dd>
+	   			<dd>
+	   				<label for="user">帐号</label>
+	   				<input type="text" name="user" id="user" class="texts">
+	   			</dd>
+	   			<dd>
+	   				<label for="pwd">密码</label>
+	   				<input type="password" name="pwd" id="pwd" class="texts">
+	   			</dd>
+	   			<dd>
+	   				<label for="notpass">重复</label>
+	   				<input type="password" name="notpass" id="notpass" class="texts">
+	   			</dd>
+	   			<dd>
+	   				<label for="vercode">验证码</label>
+	   				<input type="text" name="vercode" id="vercode" class="texts">
+	   			</dd>
+	   			<dd>
+	   				<input type="checkbox" checked="checked"> 阅读并同意《用户服务协议》
+	   			</dd>
+	   			<dd>
+	   				<input type="submit" value="注册" class="submit">
+	   			</dd>
+	   		</dl>
+	   	</form>
    </div> 
+<!-- 星星 -->
+
+<div class="star">
+	<em class="star_title">评价：</em>
+	<span class="eval_star" title="很差"></span>
+	<span class="eval_star" title="较差"></span>
+	<span class="eval_star" title="还行"></span>
+	<span class="eval_star" title="推荐"></span>
+	<span class="eval_star" title="力荐"></span>
+	<em class="eval" title="" titleid=""></em>
+</div>
 </body>
 </html>
