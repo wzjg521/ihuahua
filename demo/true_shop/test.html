@@ -135,6 +135,24 @@
 </style>
 <script>
 $(function(){
+	// 判断浏览器是pc还是移动端
+	function isPc(){
+		var userAgentInfo=navigator.userAgent;
+		var Agents=new Array('Android','iPhone','SymbianOS','Windows Phone','iPad','iPod');
+		var flag=true;
+		for(var v=0;v<Agents.length;v++){
+			if(userAgentInfo.indexOf(Agents[v])>0){
+				flag=false;
+				break;
+			}
+		}
+		return flag;
+	}
+	if(isPc()){
+		alert('这是电脑访问')
+	}else{
+		alert('这是手机访问')
+	}
 	// 星星hover效果
 	$('.eval_star').hover(function(){
 		var title=$(this).attr('title');
